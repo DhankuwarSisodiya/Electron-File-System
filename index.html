@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>File System</title>
+      <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+    </head>
+    <body>
+      <script src="index.js" type="text/javascript"></script>
+      <div class="container">
+          <div class="block has-text-centered">
+            <article class="message is-danger">
+              <div class="message-header level">
+                <h1 class="title is-6 level-item has-text-centered">FILE SYSTEM</h1>
+              </div>
+              <div class="message-body">
+                <div id="textarea">
+                  <textarea class="textarea" id="text" rows="10" cols="40"></textarea>
+                </div>
+                <div id="buttons" style="margin-top:15px;">
+                  <button class="button is-link" onclick="newBtn()">New</button>
+                  <button class="button is-link" onclick="saveBtn()">Save</button>
+                  <button class="button is-link" onclick="saveAsBtn()">Save As</button>
+                  <button class="button is-link" onclick="openBtn()">Open</button>
+                </div>
+              </div>
+            </article>
+          </div>
+      </div>
+    </body>
+  </html>
